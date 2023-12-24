@@ -8,7 +8,7 @@ import gmail_service.service.EmailService
 import org.slf4j.LoggerFactory
 
 @Component
-class EmailListener(
+class EmailMessageListener(
     private val objectMapper: ObjectMapper,
     private val emailService: EmailService
 ) {
